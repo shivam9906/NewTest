@@ -6,10 +6,6 @@ app = Flask(__name__)
 def home():
     return "Hello from ECS! 🚀"
 
-@app.route("/ls")
-def ls():
-    return "be ello from ECS! 🚀"
-
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
     
